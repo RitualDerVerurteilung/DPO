@@ -1,5 +1,6 @@
 # Мой первый проект
 ## Проект
-Этот репозиторий является каркасом для будущего веб-приложения.
+### Использумые технологии
+- HTML5
 ## Ссылки
-- [Публичная страница на GitHub Pages] https://github.com/RitualDerVerurteilung/DPO
+- Публичная страница на GitHub Pages: https://github.com/RitualDerVerurteilung/DPO
