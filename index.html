@@ -4,46 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Магазин кофе</title>
+    <link rel="icon" href="assets/icons/shopping_cart.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <div>
-            <h1>МойСайт</h1>
-        </div>
+        <h1 id="header">ЛИЧНО ВАШ КОФЕ</h1>
+        <img src="/assets/img/banner.png" alt="Баннер заголовка">
         <nav>
             <ul>
-                <li><a href="#home">Главная</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#header">Главная</a></li>
+                <li><a href="#info">О кофе</a></li>
+                <li><a href="#goods">Товары</a></li>
+                <li><a href="#gift">Подарок</a></li>
+                <li><a href="#combo">Комбо</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home">
-            <h2>Добро пожаловать!</h2>
-            <p>Это главная страница нашего веб-приложения.</p>
+        <section id="info">
+            <h2>КОФЕ&nbsp;&mdash; ЗАЛОГ ТВОЕЙ БАЗЫ</h2>
+            <div>
+                <article>
+                    <img src="assets/icons/shop.png" alt="Иконка кофейного магазина">
+                    <h3>Происхождение</h3>
+                    <p>Кофейные зерна Арабика, Робуста соответствуют международным стандартам качества</p>
+                </article>
+
+                <article>
+                    <img src="assets/icons/sign.png" alt="Иконка вывески с изображением зёрен">
+                    <h3>Качество</h3>
+                    <p>Каждое кофейное зернышко&nbsp;&mdash; это тщательно продуманный процесс приготовления кофе
+                        мастерами.</p>
+                </article>
+
+                <article>
+                    <img src="assets/icons/coffpacks.png" alt="Иконка упаковок с кофе">
+                    <h3>Виды зёрен</h3>
+                    <p>70% качества кофе в&nbsp;чашке зависит от&nbsp;происхождения и&nbsp;качества зеленого зерна.</p>
+                </article>
+
+                <article>
+                    <img src="assets/icons/coffmachine.png" alt="Иконка кофемашины">
+                    <h3>Приготовление</h3>
+                    <p>Зерна кофе проходят тщательную и&nbsp;строгую обработку в&nbsp;процессе обжарки и&nbsp;помола.
+                    </p>
+                </article>
+            </div>
         </section>
-        <section id="about">
-            <h2>О нас</h2>
-            <p>Мы компания, которая занимается созданием качественных веб-решений.
-            </p>
+
+        <section id="goods">
+            <h2>КЛАССИЧЕСКИЙ СТИЛЬ, ПРАВИЛЬНЫЙ ВКУС</h2>
+            <article>
+                <img src="assets/img/coffpack_yellow.png" alt="Изображение жёлтой упаковки кофе">
+                <p>99.000</p>
+                <h3>REVO Morning</h3>
+                <p>Тут такая красивенькая жёлтая упаковочка, лимонная</p>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </article>
+            <article>
+                <img src="assets/img/coffpack_blue.png" alt="Изображение синей упаковки кофе">
+                <p>85.000</p>
+                <h3>REVO Everyday</h3>
+                <p>Синенькая упаковочка. Хм... Наверное, она с&nbsp;чем-то вкусным...</p>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </article>
+            <article>
+                <img src="assets/img/coffpack_orange.png" alt="Изображение оранжевой упаковки кофе">
+                <p>139.000</p>
+                <h3>REVO Origin</h3>
+                <p>Оранжевенькая упаковочка. Разные зёрнышки это тааак интересно...</p>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </article>
+            <article>
+                <img src="assets/img/coffpack_brow.png" alt="Изображение коричневой упаковки кофе">
+                <p>75.000</p>
+                <h3>REVO Dam Da</h3>
+                <p>Не&nbsp;поверите, но&nbsp;это упаковка кофе цвета самих зёрен кофе. Вы&nbsp;поражены? Я&nbsp;тоже.
+                    Продолжу добавлять семантические теги.</p>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </article>
         </section>
-        <section id="services">
-            <h2>Наши услуги</h2>
-            <ul>
-                <li>Веб-разработка</li>
-                <li>Дизайн</li>
-                <li>Консультации</li>
-            </ul>
+
+        <section id="gift">
+            <h2>ПОДАРОЧНЫЙ НАБОР</h2>
+            <div>
+                <img src="/assets/img/coffkit.png" alt="Изображение подарочного набора кофе">
+                <p></p>
+                <h3></h3>
+                <p></p>
+                <div>
+                    <img src="assets/icons/beans.png" alt="Иконка зёрен кофе">
+                    <h4>Иконка зёрен</h4>
+                    <p>Фине робуста бленд</p>
+
+                    <img src="assets/icons/mountains.png" alt="Иконка гор">
+                    <h4>Иконка гор</h4>
+                    <p>700&nbsp;&mdash; 800m</p>
+                </div>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </div>
         </section>
-        <section id="contact">
-            <h2>Контакты</h2>
-            <p>Email: info@example.com</p>
-            <p>Телефон: +7 (123) 456-78-90</p>
+
+        <section id="combo">
+            <h2>КОМБО ФИН ФЕ</h2>
+            <article>
+                <img src="assets/img/coffpack_orange_wcup.png" alt="">
+                <p>147.000</p>
+                <h3>Combo Revo Red</h3>
+                <p>Однозначно, некоторые особенности внутренней политики могут быть функционально разнесены на&nbsp;независимые элементы.</p>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </article>
+            <article>
+                <img src="assets/img/coffpack_blue_wcup.png" alt="">
+                <p>156.000</p>
+                <h3>Combo Revo Blue</h3>
+                <p>В&nbsp;своём стремлении повысить качество жизни, они забывают, что высококачественный прототип будущего проекта создаёт предпосылки для существующих финансовых и&nbsp;административных условий.</p>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </article>
+            <article>
+                <img src="assets/img/coffpack_red_wcup.png" alt="">
+                <p>275.000</p>
+                <h3>Combo Revo Red</h3>
+                <p>Разнообразный и&nbsp;богатый опыт говорит нам, что существующая теория не&nbsp;даёт нам иного выбора, кроме определения распределения внутренних резервов и&nbsp;ресурсов.</p>
+                <button>КУПИТЬ</button>
+                <p>ПОЖАЛУЙСТА</p>
+            </article>
         </section>
     </main>
     <footer>
