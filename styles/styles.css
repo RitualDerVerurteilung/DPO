@@ -1,0 +1,173 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: 'Oswald', system-ui, sans-serif;
+}
+/* Выбрана методология OOCSS */
+
+/* Структурные классы */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.h1 {
+    font-size: 3rem;
+}
+.h2 {
+    font-size: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.gap-md {
+    gap: 1rem;
+}
+
+.gap-lg {
+    gap: 2rem;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+
+.list-wo-mark {
+    list-style: none;
+}
+
+/* Стилевые классы */
+.bg-white {
+    background: white;
+}
+
+.bg-primary {
+    background: #4c2774;
+}
+
+.bg-secondary {
+    background: #f5deb3;
+}
+
+.text-white {
+    color: white;
+}
+.text-primary {
+    color: #4c2774;
+}
+
+
+.padding-sm {
+    padding: 0.5rem;
+}
+
+.padding-md {
+    padding: 1rem;
+}
+
+.padding-lg {
+    padding: 1.5rem;
+}
+
+.margin-sm {
+    margin: 0.5rem;
+}
+
+.margin-md {
+    margin: 1rem 0 2rem;
+}
+
+.margin-lg {
+    margin: 1.5rem;
+}
+
+
+
+.border {
+    border: 1px solid #ddd;
+}
+
+.rounded {
+    border-radius: 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:link {
+    color: white;
+}
+
+.link:visited {
+    color: #f5deb3;
+}
+
+.shadow {
+    box-shadow: 1px 4px 12px rgba(0,0,0,0.15);
+}
+
+.bg-hover-primary:hover {
+    background: #431673;
+    color: white;
+}
+
+.bg-hover-secondary:hover {
+    background: #CFBB97;
+    color: #000;
+}
+
+.hover-lift:hover {
+    transform: translateY(-2px);
+}
+
+.bg-active-primary:active {
+    background: #330466;
+    color: white;
+}
+
+.bg-active-secondary:active {
+    background: #B3A282;
+    color: #000;
+}
+
+.focus-primary:focus {
+    outline: 3px solid #4c2774;
+    outline-offset: 2px;
+}
+
+.focus-secondary:focus {
+    outline: 3px solid #CFBB97;
+    outline-offset: 2px;
+}
+
+.transition {
+    transition: all 0.3s ease;
+}
